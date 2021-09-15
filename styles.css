@@ -50,11 +50,21 @@ hr{
 {
     background-color: var(--primary-color);
     color: white;
-
-    
+    padding: 1rem;
+    border-bottom-left-radius: 00.5rem;
 }
+.navigation .nav-brand
+{font-weight: bold;}
+
 .navigation .link
 {
-    color: white;
-   
+    color: white;  
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+.navigation .nav-pills
+{
+    text-align: right;
 }
