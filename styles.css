@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;   
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 :root{
     --primary-color: #7C3AED;
@@ -9,8 +12,8 @@ body{
 }
 hr{
     margin: 2rem 0rem;
-
 }
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -24,24 +27,34 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem  1rem;
-}
+    box-sizing: border-box;
 
+    
+}
 .link-primary
 {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem; 
+    margin: 1rem auto;   
 }
 
 .link-secondary
 {
     color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color) 
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    margin: 1rem;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem; 
+    
 }
 
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline{
@@ -52,7 +65,7 @@ hr{
 {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
 
 }
@@ -60,7 +73,8 @@ nav{
     display: block;
 }
 .navigation .nav-brand
-{font-weight: bold;}
+{font-weight: bold;
+    ;}
 
 .navigation .link
 {
@@ -73,16 +87,19 @@ nav{
 .navigation .nav-pills
 {
     text-align: right;
+    margin: 0.6rem, 1rem;
 }
 
 /** header **/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
     text-align: center;
 }
 .hero .hero-image
 {
-    max-width: 350px;
+    max-width: 80%;
+    max-width: 550px;
     display: block;
     margin: auto;  
 }
@@ -98,20 +115,30 @@ nav{
 .section 
 {
     padding: 2rem;
+    margin: 2rem 0rem;
+    text-align: center;
+    border-radius: 1rem;
+
 }
+
 section h1{
     text-align: center;
 }
+section p{
+    text-align: left;
+}
+
 .ow{
     background-color: var(--off-white);
 }
 /** foooter**/
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 1rem;
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+
 }
 .footer .footer-header{
     font-weight: bold;
@@ -123,3 +150,7 @@ section h1{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+
+
+
